@@ -264,6 +264,9 @@ body{
 	position: relative;
 
 }
+.hot{
+    border-top: 1px solid #ebebeb;
+}
 .info span{
 	font-size: 13px;
     font-family: Arial;
