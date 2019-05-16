@@ -6,12 +6,11 @@
 	<meta name="viewport" content="width=device-width,inital-scale-1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="kenh14.css">	
+	<link rel="stylesheet" type="text/css" href="kenh14.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
 		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-	
 	<title>Kenh14</title>
 </head>
 
@@ -50,8 +49,32 @@
 		</ul>
 	</div>
 
-
-	<div class="menu-wrapper">
+	<nav class="menu-wrapper navbar navbar-inverse">
+		<div class=" container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>                        
+			   </button>
+			   <a href="" title="Kênh 14, tin tức, xã hội, giải trí" class="logo logo-in-narvar"> </a>
+			</div>
+			<div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="menu-tool-item homeitem"><a href="" class="nav-link active">Trang Chủ</a></li>
+						<li class="menu-tool-item"><a href="" class="nav-link active menu-tool-item">TV Show</a></li>
+						<li class="menu-tool-item"><a href="" class="nav-link active">Cines</a></li>	
+						<li class="menu-tool-item"><a href="" class="nav-link active">Musik</a></li>
+						<li class="menu-tool-item"><a href="" class="nav-link active">Đời Sống</a></li>
+						<li class="menu-tool-item"><a href="" class="nav-link active">Ăn cả thế giới</a></li>	
+						<li class="menu-tool-item"><a href="" class="nav-link active">Sport</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- <div class="menu-wrapper">
 		<center>
 			<ul class="menu-tool">
 				<li class="menu-tool-item homeitem" hidden>
@@ -93,13 +116,13 @@
 
 			</ul>
 		</center>
-	</div>
+	</div> -->
 	<div class="advertise">
 
 	</div>
 	<div class="top clearfix" style="margin:auto">
 		<div class="body-top-new">
-			<div class="top-hot-new">
+			<div class="top-hot-new clearfix">
 				<div class="top-hot-new-left">
 					<img src="image/kenh1.png" alt="hotnew1">
 					<a href=" ">Có những câu nói tưởng đùa nhưng lại tổn thương người ta ghê gớm: Cứ nghĩ thế là
@@ -114,7 +137,7 @@
 
 				</div>
 			</div>
-			<div class="hot-list-new swiper-container">
+			<div class="top-list hot-list-new swiper-container">
 				<!-- Additional required wrapper -->
 				<div class="bot-hot-new swiper-wrapper">
 					<!-- Slides -->
@@ -162,16 +185,19 @@
 
 
 			</div>
-			<div class="list-news">
-				<div class="last-update-news">
+			<div class="list-news clearfix">
+				<div class="last-update-news clearfix">
 					<img src="image/kenh9.jpg" alt="hotnew5">
 					<div class="info lastnews">
 						<p id="notelast">[Tin vừa lên]</p>
 						<a href=" ">Phát hiện hài cốt của "Người voi" bí ẩn sau gần 130 năm tìm kiếm</a>
 						<div class="meta">
 							<a href="" class="kind-link">Đời sống</a>
-
 						</div>
+						<span>
+							HLV Trang Lê nhận định, một vòng eo thon gọn, trông sexy hoàn hảo nhất nếu bụng dưới phẳng
+							lì. Tuy nhiên, không phải ai ...
+						</span>
 					</div>
 				</div>
 				<div class="news">
@@ -256,7 +282,7 @@
 							Thông tin này đang khiến các fan của kiều nữ vô cùng lo lắng.
 						</span>
 					</div>
-					<video width="700" height="400" style="padding-top:15px;" controls>
+					<video style="padding-top:15px;" controls>
 						<source src="image/pbb.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
@@ -275,7 +301,7 @@
 							Á.
 						</span>
 						<div class="readmore">
-							<span class="readmore-label">Đọc thêm</span>
+							<p class="readmore-label">Đọc thêm</p>
 							<ul class="readmorelist">
 								<li class="readmorenews">
 									<a href="">
@@ -408,7 +434,7 @@
 							Thông tin này đang khiến các fan của kiều nữ vô cùng lo lắng.
 						</span>
 					</div>
-					<video width="700" height="400" style="padding-top:15px;" controls>
+					<video style="padding-top:15px;" controls>
 						<source src="image/pbb.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
@@ -417,17 +443,18 @@
 		</div>
 		<div class="body-right-adv clearfix">
 			<div class="adv clearfix">
-					<a href="">
-							<img src="image/adv.jpg" />
-						</a>
-						<a href="">
-							<img src="image/adv2.png" />
-						</a>
-						<a href="">
-							<img src="image/adv2.png" />
-						</a>
+				<a href="">
+					<img src="image/adv.jpg" />
+				</a>
+				<a href="">
+					<img src="image/adv2.png" />
+				</a>
+				<a href="">
+					<img src="image/adv2.png" />
+				</a>
+				<img src="image/adv.jpg" width="260px">
 			</div>
-	
+
 		</div>
 	</div>
 
@@ -712,7 +739,7 @@
 			<div class="hot-list-new carry-list-news swiper-container">
 				<h3>
 					<i class="fas fa-dolly-flatbed"></i>
-					Đang được quan tâm
+					Đừng bỏ lỡ
 				</h3>
 				<!-- Additional required wrapper -->
 				<div class="bot-hot-new swiper-wrapper">
@@ -763,7 +790,7 @@
 					VIDEO
 				</h3>
 				<a href="" class="top-carry-video">
-					<i style="background-image: url(kenh10.jpg)"></i>
+					<i style="background-image: url(image/kenh10.jpg)"></i>
 					<span class="info-video-carry">
 						Sau 5 năm không có hit, nhóm nữ hiếm hoi theo mô hình chuẩn Kpop ở Việt Nam quyết định tan rã
 					</span>
@@ -782,8 +809,8 @@
 				</ul>
 			</div>
 		</div>
-		<div class="list" style="width: 1024px">
-			<div class="left-list" style="width: 734px">
+		<div class="list clearfix">
+			<div class="left-list">
 				<div class="bot-trend-news-frame clearfix">
 					<div class="bot-trend-news-frame-left">
 						<div class="news">
@@ -1389,6 +1416,118 @@
 							</div>
 						</div>
 					</div>
+					<div class="general-new trend-news-frame">
+						<div class="top-frame">
+							<div class="name">
+								<p>ĐỚI SỐNG</p>
+							</div>
+							<img src="image/photo2.png" alt="hotnew1">
+							<a href=" ">4 tháng mất hút hậu xạ trị ung thư, Kim Woo Bin trở lại với diện mạo hoàn toàn
+								mới bên
+								tài tử Jo In Sung</a>
+							<p>
+								Kim Woo Bin và tài tử Jo In Sung bỗng xuất hiện tại một ngôi chùa vào hôm qua.
+
+							</p>
+
+						</div>
+						<div class="bot-frame">
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+						</div>
+					</div>
+					<div class="general-new trend-news-frame">
+						<div class="top-frame">
+							<div class="name">
+								<p>ĐỚI SỐNG</p>
+							</div>
+							<img src="image/photo2.png" alt="hotnew1">
+							<a href=" ">4 tháng mất hút hậu xạ trị ung thư, Kim Woo Bin trở lại với diện mạo hoàn toàn
+								mới bên
+								tài tử Jo In Sung</a>
+							<p>
+								Kim Woo Bin và tài tử Jo In Sung bỗng xuất hiện tại một ngôi chùa vào hôm qua.
+
+							</p>
+
+						</div>
+						<div class="bot-frame">
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+						</div>
+					</div>
+					<div class="general-new trend-news-frame">
+						<div class="top-frame">
+							<div class="name">
+								<p>ĐỚI SỐNG</p>
+							</div>
+							<img src="image/photo2.png" alt="hotnew1">
+							<a href=" ">4 tháng mất hút hậu xạ trị ung thư, Kim Woo Bin trở lại với diện mạo hoàn toàn
+								mới bên
+								tài tử Jo In Sung</a>
+							<p>
+								Kim Woo Bin và tài tử Jo In Sung bỗng xuất hiện tại một ngôi chùa vào hôm qua.
+
+							</p>
+
+						</div>
+						<div class="bot-frame">
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+						</div>
+					</div>
+					<div class="general-new trend-news-frame">
+						<div class="top-frame">
+							<div class="name">
+								<p>ĐỚI SỐNG</p>
+							</div>
+							<img src="image/photo2.png" alt="hotnew1">
+							<a href=" ">4 tháng mất hút hậu xạ trị ung thư, Kim Woo Bin trở lại với diện mạo hoàn toàn
+								mới bên
+								tài tử Jo In Sung</a>
+							<p>
+								Kim Woo Bin và tài tử Jo In Sung bỗng xuất hiện tại một ngôi chùa vào hôm qua.
+
+							</p>
+
+						</div>
+						<div class="b ot-frame">
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+							<div class="item-bot">
+
+								<a href=" ">Công an Cần Thơ lên tiếng vụ nam thanh niên tật nguyền bị "cướp" 150 tờ vé
+									số</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="line-event">
 					<div class="head-line-event clearfix">
@@ -1755,7 +1894,7 @@
 			</div>
 
 		</div>
-		<div class="info-about-k14">
+		<div class="company info-about-k14">
 			<div class="address-k14">
 				<p class="col-title">Chịu trách nhiệm quản lí nội dung</p>
 				<p>

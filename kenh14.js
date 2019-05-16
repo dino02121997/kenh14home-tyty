@@ -26,7 +26,7 @@ $(document).ready(function(){
       var swiper_daily = new Swiper('.daily', {
         direction: 'vertical',
         loop: false,
-        slidesPerView: 5,
+        slidesPerView: 2,
         spaceBetween:10,
         mousewheel: true,
         scrollbar: { 
@@ -76,7 +76,7 @@ $(document).ready(function(){
            
           }
           // for sroll adv
-          if( scroll>=7900 && scroll<=15500){
+          if( scroll>=7900 && scroll<=16500){
             $('.right-adv').addClass('scroll-adv');
             
           }
@@ -84,7 +84,17 @@ $(document).ready(function(){
             $('.right-adv').removeClass('scroll-adv');
            
           }
+          // for scroll adv top
+          if( scroll>=1000 && scroll<=4000){
+            $('.body-right-adv img').addClass('adv-top-scroll');
+            
+          }
+          else{
+            $('.body-right-adv img').removeClass('adv-top-scroll');
+           
+          }
         console.log( scroll);
+
       });
      function getCurrentScroll(){
        return window.pageYOffset || document.documentElement.scrollTop;

@@ -13,7 +13,7 @@
 	width: 1024px;
 }
 .top-tool{
-	margin-left: 515px;
+	margin-left: 30%;
 	margin-top:0px;
 }
 .top-tool li{
@@ -79,6 +79,7 @@
 	background: #b10a05;
 	position:fixed;
 	z-index: 99;
+	border-radius: 0px;
 	
 }
 .menu-wrapper.scroll-menu{
@@ -86,8 +87,11 @@
 	background: #222;
 	top:0;	
 }
-.menu-tool{
-	margin: 0px;
+.navbar-collapse{
+	background: #b10a05;
+}
+.collapse{
+	margin-left: 10%;
 }
 .menu-tool-item{
 	display: inline-block;
@@ -95,7 +99,7 @@
 }
 .homeitem a{
 	text-indent: -99999px;
-	background-image: url(k14_logo_new.png);
+	background-image: url(image/k14_logo_new.png);
 	background-repeat:  no-repeat;
 	background-size: contain ;
 }
@@ -103,7 +107,7 @@
 	padding-right : 20px;
 	font-size: 14px;
 	line-height: 20px;
-	color: white;
+	color: white !important; 
 	display: block;
 	float: left;
 	
@@ -114,9 +118,15 @@
 	width: 260px;
 	float: right;
 }
+.body-right-adv img.adv-top-scroll{
+	position: fixed;
+	top: 10%;
+	
+}
 .body-right-adv img{
 	margin-bottom: 20px ;
 	width: 260px;
+	
 }
 .top-hot-new-left img{
     width: 460px;
@@ -212,7 +222,8 @@ body{
 }
 .last-update-news{
 	margin-top:30px;
-    border: 1px solid #ebebeb;
+	border: 1px solid #ebebeb;
+	
 }
 .last-update-new image{
 	width: 223px;
@@ -249,6 +260,8 @@ body{
 	padding-top:20px;
 	padding-bottom:20px;
 	border-bottom:1px solid #ebebeb;
+	overflow:auto;
+	position: relative;
 
 }
 .info span{
@@ -278,7 +291,7 @@ body{
 }
 .button-hot{
 	background-color: rgba(251,108,39,.9);
-	background-image: url(next.png);
+	background-image: url(image/next.png);
 	width: 35px;
 	height: 90px;
 	top:40%;
@@ -286,7 +299,7 @@ body{
 }
 .prebt{
 	-webkit-transition: all .3s;
-	background-image: url(back.png);
+	background-image: url(image/back.png);
 }
 .swiper-button-disabled{
 	background-color: #333!important;
@@ -295,16 +308,23 @@ body{
     display: block;
     pointer-events: all;
 }
-
+.video {
+	position: relative;
+	border: none;
+}
 .video .info{
 	float:none;
 	width: auto;
+}
+.video video{
+	width:700px;
+	height:400px;
 }
 .news img{
   width: 280px;
 }
 .readmore-label{
-	font-size: 11px;
+	font-size: 14px;
     color: #888;
     display: block;
 	margin-bottom: 8px;
@@ -324,7 +344,7 @@ body{
 .readmorelist{
 	list-style-type: square;
 	color: #ff5e34;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 .famous-list-news{
 	padding: 20px 0px;
@@ -393,7 +413,7 @@ body{
     line-height: 38px;
     text-transform: uppercase;
 	color:black;
-	float:left;
+	
 }
 
 .trend{
@@ -404,7 +424,7 @@ body{
 }
 .list{
 	border-top: 3px solid #ebebeb;
-	
+	width: 1024px;
 	
 }
 .trend-news{
@@ -510,15 +530,16 @@ body{
 
 		
 }
+
 #discuss-news-frame.discuss-scroll{
 	position: fixed;
 	top: 5%;
-	right: 15%;
+	right: 10%;
 }
 #discuss-news-frame.discuss-save{
 	position: fixed;
 	bottom: 40%;
-	right: 15%;
+	right: 10%;
 }
 .head-discuss-frame{
 	width: 100%;
@@ -579,7 +600,7 @@ body{
 }
 .carry-list-news{
 	padding-bottom: 25px;
- 	width: 720px;
+ 	width: 700px;
 	float: left;
 	background: #f5f5f5;
 	border-radius: 3px;
@@ -778,7 +799,7 @@ h3{
 	border-radius: 5px;
 }
 .mutex-right-header a{
-	background-image: url(green.png);
+	background-image: url(image/green.png);
 	background-size: contain ;
 	background-repeat:  no-repeat;
 	text-indent: -99999px;
@@ -881,6 +902,7 @@ a:hover{
 }
 .left-list{
 	float:left;
+	width: 734px;
 }
 .right-adv{
 	padding-top: 50px;
@@ -890,7 +912,7 @@ a:hover{
 .right-adv.scroll-adv{
 	position: fixed;
 	top: 5%;
-	right: 15%;
+	right: 10%;
 }
 .bot-menu{
 	

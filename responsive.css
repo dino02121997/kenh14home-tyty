@@ -1,0 +1,394 @@
+@media only screen and (max-width: 480px) { 
+
+    .top,.body-top-new,
+    .top-hot-new,.trend,.trend-new,.bot-trend-news-frame-left,.list,.left-list,.other-kind-news,.end-page,.info-about-k14,
+    .trend-news-frame,.daily,.list-news-daily, .top-frame img{
+        width: 100%;
+    }
+
+    .trend{
+        padding: 0px 20px;
+    }
+    .tittle-web,.body-right-adv,.right-adv,#discuss-news-frame,.top-hot-new-right,.top-list,.bot-menu,.mutex,
+    .carry-frame,.line-event,.wrapper,.trend-hot-list,.famous,.company,.other-kind-news,.swiper-pagination,.swiper-button-next,.swiper-button-prev
+    {
+        display:none;
+    }
+    .logo-in-narvar{
+        left: 0;
+        height: 50px;
+        width: 50%;
+    }
+    .menu-wrapper{
+        background: #b10a05;;
+    }
+    .menu-wrapper.scroll-menu{
+        transition: all 3s;
+        background:orange;
+        top:0;	
+    }
+    .top{
+        padding-top:0;
+    }
+    .top-hot-new{
+        
+        height: auto;
+    }
+    .top-hot-new-left{
+        width: 100%;
+        padding: 20px;
+        
+    }
+    .top-hot-new-left img{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .tittle-web a{
+        left: 0;
+    }
+    .list-news{
+       margin: 0px 20px;
+        border-top: 2px solid #ff6d15;
+    }
+   .info{
+       width: 100%;
+   }
+   .news img{
+       position: absolute;
+        width: 48%;
+        top:40%;
+   }
+  
+   .news span{
+      
+        margin-left: 50%;
+        width: 50%;
+        padding-top:0px;
+   }
+  
+   .meta{
+        margin-top:5%;
+       margin-left:50%;
+       bottom: 10%;
+   }
+   .meta a {
+        color: orange;
+    }
+   .last-update-news{
+       position: relative;
+   }
+   .last-update-news img{ 
+       position: absolute;
+       width: 48%;
+       top:50%;
+   }
+   .lastnews span{
+        margin-left: 50%;
+        width: 50%;
+        padding-top:0px;
+   }
+   .hot .meta{
+         margin-left: 32%;
+   }
+   .hot img{
+       top: 20%;
+       width: 30%;
+   }
+   .hot span{
+       margin-left: 32%;
+       margin-bottom: 30px;
+       width: 60%;
+   }
+   .readmore-label{
+        margin-bottom: 0px;
+   }
+   
+   .left{
+       border-right: none;
+   }
+   .right{
+       border: 1px solid #d9d9d9;
+   }
+   .daily{
+       border: none;
+       margin: 0px 0px;
+       background: #fff;
+       padding-left:10px;
+   }
+   .list-news-daily{
+    padding: 10px 0px ;
+   }
+   .name{
+    height: 50px;
+    background: #f5f5f5;
+    padding: 15px 15px;
+    box-shadow: 0px -4px 10px rgba(0,0,0,.15);
+    position: relative;
+    z-index: 1;
+   }
+   
+   .info-about-k14{
+       border-right: none;
+       
+   }
+   .address-k14{
+        margin-bottom: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #383838;
+   }
+   .end-page{
+    background: #222;
+    border-top: 3px solid #ff6d15;
+   }
+  .video video{
+      height: auto;
+      width:100%;
+      margin-bottom:60%;
+  }
+  .video .info{
+      position: absolute;
+      padding: 20px 0px;
+      bottom: 0%;
+  }
+  .video .meta{
+      margin-left :0%;
+    }
+  .video span{
+      margin-left :0%;
+      width: 100%
+  }
+  
+}
+/* SE */
+@media only screen 
+and (min-width : 320px) and (max-width : 320px){
+    .news img{
+        position: absolute;
+        width:45%;
+        top: 55%;
+   }
+   .news span{ 
+        margin-left: 47%;
+        width: 53%;
+        padding-top:0px;
+       
+    }   
+   .last-update-news img{
+        position: absolute;
+        width:45%;
+        top:60%;
+   }
+   .last-update-news span{
+        margin-left: 47%;
+        width: 53%;
+        padding-top:0px;
+    }
+   .hot img{
+        top: 24%;
+        width: 40%;
+    }
+    .hot .meta{
+        margin-top:5%;
+        margin-left:0%;
+    }
+    .meta{
+        margin-top:5%;
+        margin-left:0%;
+       
+   }
+   .video .info {
+    position: absolute;
+    top: 60%;
+    padding-top: 11px;
+    }
+    .video span{
+        margin-left:0; 
+        width : 100%;
+    }
+    .item-bot a {
+        font-size: 14px;
+    }
+}
+/* ipad */
+@media only screen and (min-width : 768px) and (max-width : 1020px){ 
+
+    .top,.body-top-new,
+    .top-hot-new,.trend,.trend-new,.bot-trend-news-frame-left,.list,.left-list,.other-kind-news,.end-page,.info-about-k14{
+        width: 100%;
+    }
+    .trend{
+        padding: 0px 20px;
+    }
+    .body-right-adv,.right-adv,#discuss-news-frame,.top-hot-new-right,.bot-menu,.mutex,.daily,.carry-videos,.right,
+    .line-event,.wrapper,.famous,.company,.other-kind-news,.swiper-pagination,.swiper-button-next,.swiper-button-prev
+    {
+        display:none;
+    }
+    .trend-hot-list{
+        left: 30%
+    }
+    .top{
+        padding-top:0;
+    }
+    .top-hot-new{
+        
+        height: auto;
+    }
+    .top-hot-new-left{
+        width: 100%;
+        padding: 20px;
+        
+    }
+    .top-hot-new-left img{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .tittle-web a{
+        left: 0;
+    }
+    .list-news{
+       margin: 0px 20px;
+        border-top: 2px solid #ff6d15;
+    }
+   .info{
+       width: 100%;
+   }
+   .news img, .last-update-news img{
+        position: absolute;
+        width: 30%;
+        top:35%;
+   }
+   .news span,.lastnews span{  
+        margin-left: 32%;
+        margin-bottom: 10%;
+        width: 65%;
+        padding-top:0px;
+   }
+  
+   .meta{
+       margin-top:5%;
+       margin-left:32%;
+       bottom: 10%;
+   }
+   .meta a {
+        color: orange;
+    }
+   .last-update-news{
+       position: relative;
+   }
+   .hot .meta{
+         margin-left: 32%;
+   }
+   .hot img{
+       top: 20%;
+       width: 30%;
+   }
+   .hot span{
+       margin-left: 32%;
+       margin-bottom: 30px;
+       width: 60%;
+   }
+   .readmore{
+       margin-left:32%;
+   }
+   .readmore-label{
+        margin-bottom: 0px;
+   }
+   
+   .left{
+       border-right: none;
+   }
+   .right{
+       border: 1px solid #d9d9d9;
+   }
+   .daily{
+       border: none;
+       margin: 0px 0px;
+       background: #fff;
+       padding-left:10px;
+   }
+   .list-news-daily{
+    padding: 10px 0px ;
+   }
+   .name{
+    height: 50px;
+    background: #f5f5f5;
+    padding: 15px 15px;
+    box-shadow: 0px -4px 10px rgba(0,0,0,.15);
+    position: relative;
+    z-index: 1;
+   }
+   
+   .info-about-k14{
+       border-right: none;
+       
+   }
+   .address-k14{
+        margin-bottom: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #383838;
+   }
+   .end-page{
+    background: #222;
+    border-top: 3px solid #ff6d15;
+   }
+  .video video{
+      height: auto;
+      width:100%;
+      margin-bottom:10%;
+  }
+  .video .info{
+      position: absolute;
+      bottom: 0%;
+  }
+  .video .meta{
+      margin-left :0%;
+      margin: 0;
+    }
+  .video span{
+      margin-left :0%;
+      width: 100%;
+      margin-bottom: 0;
+  }
+  .navbar-collapse{
+    background: none;
+    }
+    .logo-in-narvar{
+        display: none;
+    }
+}
+/* desktop */
+@media only screen and (min-width: 1300px){
+    .navbar-collapse{
+        background: none;
+    }
+    .logo-in-narvar{
+        display: none;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .navbar-collapse{
+        background: none;
+    }
+    .logo-in-narvar{
+        display: none;
+    }
+    #discuss-news-frame.discuss-scroll,#discuss-news-frame.discuss-save,.right-adv.scroll-adv,.body-right-adv img.adv-top-scroll {
+        position: fixed;
+        top: 5%;
+        right: 0%;
+    }
+    .top,.trend {
+        padding-left:10px;
+    }
+    .trend-news-frame{
+        margin-right: 0;
+    }
+    
+    
+}
